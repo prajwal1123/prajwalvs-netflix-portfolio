@@ -15,15 +15,19 @@ export const profile = {
   intro: 'Full Stack Developer with 4+ years of experience building enterprise web applications using Angular, TypeScript, JavaScript, Node.js, Express.js, SQL and modern frontend tooling. Experienced in banking/fintech applications and engineering automation.',
   location: 'Bengaluru, India',
   email: 'prajwalvs172@gmail.com',
+  portrait: {
+  src: `${import.meta.env.BASE_URL}assets/prajwal-profile.jpeg`,
+  srcSet: `${import.meta.env.BASE_URL}assets/prajwal-profile.jpeg 720w`,
+  alt: 'Portrait of Prajwal V S',
+  },
+  resumePdf: `${import.meta.env.BASE_URL}assets/Prajwal_VS_Resume.pdf`,
   links: { linkedin: 'https://www.linkedin.com/in/prajwal-v-s-976744149', github: 'https://github.com/' },
-  resumePdf: '/assets/Prajwal_VS_Resume.pdf',
-  portrait: { src: '/assets/prajwal-profile.jpeg', srcSet: '/assets/prajwal-profile.jpeg 720w', alt: 'Portrait of Prajwal V S' },
   interests: ['Frontend Engineering', 'Full Stack Development', 'Engineering Automation'],
 };
 
 export const education = [
-  { school: 'University Visvesvaraya College of Engineering', place: 'Bengaluru, India', degree: 'Master of Technology', period: 'Dates not provided', score: 'CGPA 8.8' },
-  { school: 'Sambhram Institute of Technology', place: 'Bengaluru, India', degree: 'Bachelor of Engineering', period: 'Dates not provided', score: 'CGPA 7.1' },
+  { school: 'University Visvesvaraya College of Engineering', place: 'Bengaluru, India', degree: 'Master of Technology', period: '2016 - 2020', score: 'CGPA 8.8' },
+  { school: 'Sambhram Institute of Technology', place: 'Bengaluru, India', degree: 'Bachelor of Engineering', period: '2020 - 2022', score: 'CGPA 7.1' },
 ];
 
 export const experience = [
